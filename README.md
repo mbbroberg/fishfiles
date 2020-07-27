@@ -3,6 +3,12 @@
 [![](https://img.shields.io/github/license/mbbroberg/fishfiles?style=flat-square)](https://www.tldrlegal.com/l/lgpl-3.0)
 [![](https://img.shields.io/twitter/follow/mbbroberg?color=blue&label=ask%20me%20about%20dotfiles&style=flat-square)](https://twitter.com/mbbroberg)
 
+## Update
+
+I no longer need this repository. My [new dotfile setup](https://github.com/mbbroberg/dotfiles) uses [chezmoi](https://github.com/twpayne/chezmoi) and I now track my fisher fishfile in the same directory structure.
+
+## Original 
+
 This repository is my version of [laughedelic/fish](https://github.com/laughedelic/fish). Here's how it works: 
 
 I'm using the [fisher](https://github.com/jorgebucaran/fisher) plugin manager. It creates symlinks for _all_ plugin functions in `~/.config/fish/functions/`, so it's rather inconvenient to store your own functions at the same place. This is why I moved my functions and the config out and installed it as a plugin:
